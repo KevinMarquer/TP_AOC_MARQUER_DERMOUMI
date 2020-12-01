@@ -7,7 +7,7 @@ import java.util.concurrent.Future;
 import fr.istic.kmarquer.aoc.capteur.Capteur;
 import fr.istic.kmarquer.aoc.capteur.CapteurImpl;
 
-public class Canal implements ObserveurDeCapteurAsync{
+public class Canal implements ObserveurDeCapteur{
 
 	//role Proxy
 	private final ExecutorService executorService = Executors.newFixedThreadPool(1);

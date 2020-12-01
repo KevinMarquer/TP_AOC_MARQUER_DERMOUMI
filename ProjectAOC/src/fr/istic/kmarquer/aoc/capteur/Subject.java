@@ -1,10 +1,10 @@
 package fr.istic.kmarquer.aoc.capteur;
 
-import java.util.Observer;
+import fr.istic.kmarquer.aoc.canal.ObserveurDeCapteur;
 
 public interface Subject {
 	
-	void attach(Observer o);
-	void detach(Observer o);
+	void attach(ObserveurDeCapteur o);
+	void detach(ObserveurDeCapteur o);
 
 }

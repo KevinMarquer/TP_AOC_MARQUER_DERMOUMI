@@ -2,14 +2,14 @@ package fr.istic.kmarquer.aoc.afficheur;
 
 import org.junit.jupiter.api.Test;
 
-import fr.istic.kmarquer.aoc.canal.ObserveurDeCapteurAsync;
+import fr.istic.kmarquer.aoc.canal.ObserveurDeCapteur;
 import fr.istic.kmarquer.aoc.capteur.Capteur;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 import java.util.logging.Logger;
 
-public class Affichage implements ObserveurDeCapteurAsync{
+public class Affichage implements ObserveurDeCapteur{
 
 	//Client
 	@Test
